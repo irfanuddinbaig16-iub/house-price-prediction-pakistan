@@ -1,2 +1,15 @@
-# house-price-prediction-pakistan
-End-to-end machine learning web application to predict house prices in Pakistan using area (Marla), bedrooms, bathrooms, city, and location. Built with Python, Scikit-learn, and Streamlit.
+# House Price Prediction (Pakistan) - Streamlit App
+
+This project predicts house prices in Pakistan using a trained ML regression model.
+
+## Tech Stack
+- Python
+- scikit-learn
+- Streamlit
+- pandas, numpy
+
+## How to Run Locally
+```bash
+pip install -r requirements.txt
+python model.py
+streamlit run app.py
